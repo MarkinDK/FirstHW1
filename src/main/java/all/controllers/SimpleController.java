@@ -8,7 +8,7 @@ public class SimpleController {
     @GetMapping(value = "/hello")
     public String hello() {
         String hello = "Hello World\n";
-        String version = "Version 1";
+        String version = "Version seccond";
         return hello + version;
     }
 }
