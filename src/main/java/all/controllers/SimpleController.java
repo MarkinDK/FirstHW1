@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SimpleController {
     @GetMapping(value = "/hello")
     public String hello() {
-        String hello = "Hello World\n";
-        String version = "Version 1!!!";
+        String hello = "Hello World ";
+        String version = "Version NEW!!!";
         return hello + version;
     }
 }
